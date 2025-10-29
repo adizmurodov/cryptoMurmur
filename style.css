@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cryptoMurmur {
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 800px;
+}
+
+
+.left-box {
+  background: linear-gradient(180deg, #1e1e24, #2c2c34);
+  color: white;
+  padding: 30px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.crypto {
+  color: white;
+  font-weight: 600;
+}
+
+.murmur {
+  color: #ff3e75;
+  font-weight: 600;
+}
+
+.left-box ul {
+  margin-left: 26px;
+  margin-top: 10px;
+  line-height: 1.8em;
+}
+
+.price {
+  margin-top: 30px;
+}
+
+.price h1 {
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+.cancel-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid #999;
+  border-radius: 6px;
+  padding: 8px 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+
+.right-box {
+  width: 60%;
+  padding: 40px;
+}
+
+.right-box h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visa {
+  margin-left: 10px;
+  color: #003087;
+  font-weight: bold;
+}
+
+.three-col {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.three-col-input{
+    margin-top: 24px;
+}
+
+.info {
+  font-size: 12px;
+  color: #666;
+  margin-top: 15px;
+  line-height: 1.4em;
+}
+
+.pay-btn {
+  background: #ff3e75;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: #e62b67;
+}
